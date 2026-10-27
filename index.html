@@ -12,23 +12,23 @@
 
 <h1>Privacy Policy</h1>
 <p class="sub">Hunt the Mustache Guy – Android game</p>
-<p class="meta">Last updated: 25 October 2026 · applies from version 0.9.8 (internal test via Google
-Play); section 6 applies to the planned version with online leaderboards</p>
+<p class="meta">Last updated: 27 October 2026 · applies from version 0.9.8 (internal test via Google
+Play); online leaderboards (section 6) are included from version 0.9.9</p>
 
 <div class="summary">
 <h2>In short</h2>
 <ul>
 <li><strong>No account required for offline play; no real-money purchases:</strong> You can play
 without signing in or providing contact details. Optional online leaderboards (available from
-age 16) require a Google Play Games profile; they are planned for a future version and are not
-included in version 0.9.8. Coins are earned through gameplay; there are no real-money purchases.
+age 16) require a Google Play Games profile; they are included from version 0.9.9 (internal
+test) and not in version 0.9.8. Coins are earned through gameplay; there are no real-money purchases.
 We do not operate our own analytics or crash reporting services. When online leaderboards are
 enabled, Google Play Games Services may process analytics and diagnostic data, as described in
 <a href="#leaderboards">section 6</a>.</li>
 <li><strong>Your saves stay on your device:</strong> no cloud saves, nothing is sent to us.</li>
 <li><strong>Online leaderboards only by choice, from 16:</strong> only if you turn them on
-yourself does the app sign in to Google Play Games and send your Arcade best score to Google
-(section 6).</li>
+yourself does the app sign in to Google Play Games and send your best scores (Arcade, levels,
+Mustache Madness and an overall score) to Google (section 6).</li>
 <li><strong>Ads only from age 16:</strong> without an age selection and under 16, the app calls
 neither Google AdMob nor Google's consent platform (UMP).</li>
 <li><strong>From 16, only with consent:</strong> during the internal test the app shows only
@@ -79,15 +79,16 @@ TOTAL POINTS, coins and power-ups</td><td data-label="Purpose">so you can keep p
 <tr><td>Settings: sound, music, volume</td><td data-label="Purpose">remember your settings</td><td data-label="How long">until you clear the app's data</td></tr>
 <tr><td>Age group (under 13, 13–15, 16–17, 18+), no date of birth</td><td data-label="Purpose">decide whether ads, the UMP and online leaderboards may be used</td><td data-label="How long">until changed or deleted</td></tr>
 <tr><td>Consent choice (16+ only, stored by Google UMP in the IAB TCF format)</td><td data-label="Purpose">respect your decision</td><td data-label="How long">until changed, until the age group changes or until deleted</td></tr>
-<tr><td>Online leaderboards (16+ only): whether you take part, version of the explanation, last
-Arcade best score sent to Google</td><td data-label="Purpose">respect your decision, avoid sending
+<tr><td>Online leaderboards (16+ only): whether you take part, version of the explanation, the
+best score last sent to Google for each leaderboard</td><td data-label="Purpose">respect your decision, avoid sending
 twice (section 6)</td><td data-label="How long">until you clear the app's data</td></tr>
 </tbody>
 </table>
 <p>The app does not send this data to us, and Android's automatic cloud backup is turned off.
 Your progress is therefore lost when you switch devices or delete the app. The Google SDK sends
 the consent choice to Google with each ad request (section 4). If you have turned on online
-leaderboards, your Arcade best score is also sent to Google Play Games (section 6).</p>
+leaderboards, your best scores for the leaderboards are also sent to Google Play Games
+(section 6).</p>
 <p><strong>Ad timing only while you play:</strong> the app keeps the round counter and the time
 of the last full-screen ad only in memory while it is running, to limit ads (at most after every
 third round, at most once every three minutes). These values are not stored and not
@@ -198,11 +199,12 @@ and to respect your decision (legitimate interest, Art. 6(1)(f) GDPR). For stori
 see section 2.</p>
 
 <h2 id="leaderboards">6. Online leaderboards with Google Play Games (optional, 16+ only)</h2>
-<p>This section applies to the planned version with online leaderboards; version 0.9.8, which has
-been distributed in the internal test so far, does not include this feature yet. Provider:
-Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland. The app uses Google Play
-Games Services so that you can compare your Arcade best score with other players on a worldwide
-leaderboard. We do not run our own leaderboard server.</p>
+<p>Online leaderboards are included from version 0.9.9 (internal test); version 0.9.8 does not
+include them. Provider: Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland.
+The app uses Google Play Games Services so that you can compare your best scores with other
+players on worldwide leaderboards: Arcade, each level, Mustache Madness and an overall score.
+Leaderboards are added step by step; the app only uses those that have already been set up. We
+do not run our own leaderboard server.</p>
 <h3>Optional and only from 16</h3>
 <ul>
 <li><strong>Without turning it on:</strong> you play without signing in at all, and all scores
@@ -221,19 +223,23 @@ nothing more. If you later switch back to 16 or older, you have to turn it on ag
 <li>your Play Games player identifier (player ID) and your Play Games profile with gamer tag and,
 where applicable, avatar – according to Google, Play Games collects this gamer identity when you
 create or update your Play Games account;</li>
-<li>your Arcade best score: your existing record when you first turn the feature on, and after
-that each new record from regularly finished Arcade rounds;</li>
-<li>your leaderboard rank and, for the display, the top 10 of the public leaderboard (display
-name, rank, score);</li>
+<li>your best scores: Arcade; each level (only rounds without a second chance count); Mustache
+Madness; and an overall score, which is the sum of your best level scores – your existing records
+when you first turn the feature on, and after that each new record from regularly finished
+rounds;</li>
+<li>your rank and, for the display, up to 25 places of the public leaderboard you are viewing
+(display name, rank, score), of which the top 10 are shown. If your score is not shown publicly
+(for example because your Play Games profile is not visible to everyone), the app works out your
+position from these places on your device;</li>
 <li>according to Google, also analytics and diagnostics data, which Google says it uses for the
 stability of the SDK and to improve its products.</li>
 </ul>
-<p>Not uploaded as leaderboard data: TOTAL POINTS, coins, power-ups (inventory), level and
-Madness results, your age group, settings, ad consent choices and your complete game
-progress.</p>
-<p>The app keeps the top 10 and ranks only in memory and does not store them. The app uses your
-player ID only to highlight your own row; it is neither stored nor sent to us.</p>
-<p><strong>Visibility:</strong> your score appears on the leaderboard with your Play Games name.
+<p>Not uploaded as leaderboard data: TOTAL POINTS, coins, power-ups (inventory), stars, results
+other than the best scores listed above, your age group, settings, ad consent choices and your
+complete game progress.</p>
+<p>The app keeps the loaded places and ranks only in memory and does not store them. The app uses
+your player ID only to highlight your own row; it is neither stored nor sent to us.</p>
+<p><strong>Visibility:</strong> your scores appear on the leaderboards with your Play Games name.
 Who can see it depends on your visibility settings in Google Play Games.</p>
 <p><strong>Transmission:</strong> encrypted (HTTPS), according to Google.</p>
 <p><strong>Legal basis:</strong> your consent by choosing TURN ON (Art. 6(1)(a) GDPR; for storing
